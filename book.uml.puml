@@ -1,0 +1,10 @@
+@startuml
+class Book {
+    - title: str
+    - author: str
+    - ISBN: str
+    - price: float
+    + __init__(title, author, ISBN, price)
+    + display_info(): void
+}
+@enduml
